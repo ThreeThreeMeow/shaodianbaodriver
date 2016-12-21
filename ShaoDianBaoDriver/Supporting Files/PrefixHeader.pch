@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  ShaoDianBaoDriver
+//
+//  Created by 光小星 on 2016/12/15.
+//  Copyright © 2016年 Shanxi shaodianbao network technology co.,LTD. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "URL.h"
+#import "Setting.h"
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppDelegate.h"
+#import "HttpTool.h"
+
+
+#endif
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyJourneyViewController">
+            <connections>
+                <outlet property="scrollView" destination="nMG-mm-qAk" id="gM3-cl-bsR"/>
+                <outlet property="topView" destination="PLj-d1-o7l" id="CFf-vq-KMo"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PLj-d1-o7l" customClass="TopSelectedView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="46"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="1kh-hz-E5i"/>
+                    </constraints>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMG-mm-qAk">
+                    <rect key="frame" x="0.0" y="46" width="320" height="522"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="SPv-1D-y1J"/>
+                    </connections>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="PLj-d1-o7l" secondAttribute="trailing" id="Gdd-iX-9FV"/>
+                <constraint firstItem="nMG-mm-qAk" firstAttribute="top" secondItem="PLj-d1-o7l" secondAttribute="bottom" id="Hrd-yz-Prw"/>
+                <constraint firstAttribute="bottom" secondItem="nMG-mm-qAk" secondAttribute="bottom" id="axB-vR-S0N"/>
+                <constraint firstItem="PLj-d1-o7l" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="fYO-vy-CB9"/>
+                <constraint firstAttribute="trailing" secondItem="nMG-mm-qAk" secondAttribute="trailing" id="qy0-hr-48I"/>
+                <constraint firstItem="nMG-mm-qAk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="uXo-cJ-z99"/>
+                <constraint firstItem="PLj-d1-o7l" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="xR1-eh-cRR"/>
+            </constraints>
+            <point key="canvasLocation" x="-13" y="-135"/>
+        </view>
+        <viewController id="xu4-Id-QWx">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="41j-kb-Be2"/>
+                <viewControllerLayoutGuide type="bottom" id="AIS-tk-lYu"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="7Mu-M7-AP3">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            </view>
+        </viewController>
+    </objects>
+</document>

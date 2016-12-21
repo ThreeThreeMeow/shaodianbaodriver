@@ -1,0 +1,49 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BaiduMapKit (3.2)
+  - HyphenateLite_CN (3.2.2.2)
+  - IQKeyboardManager (4.0.7)
+  - Masonry (1.0.2)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BaiduMapKit
+  - HyphenateLite_CN
+  - IQKeyboardManager
+  - Masonry
+  - MJExtension
+  - MJRefresh
+  - SDWebImage (~> 3.7.6)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BaiduMapKit: c23aee47be89b2b939a92acfd06627114e897662
+  HyphenateLite_CN: 61b01b906d6ed88259c980522f6f346bfac96993
+  IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+
+PODFILE CHECKSUM: db43aa8a31d0e68de8f0ab58a4113a01e47ff806
+
+COCOAPODS: 1.1.1
